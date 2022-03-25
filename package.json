@@ -1,0 +1,22 @@
+{
+  "name": "taskmanager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sunrise9871/proj-repo.git"
+  },
+  "author": "opuperon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sunrise9871/proj-repo/issues"
+  },
+  "homepage": "https://github.com/Sunrise9871/proj-repo#readme",
+  "dependencies": {
+    "electron": "^17.2.0"
+  }
+}
