@@ -16,42 +16,15 @@ box-sizing: border-box;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.Registration{
-    position: absolute;
-    width: 210px;
-    height: 51px;
-    left: 353px;
-    top: 1px;
 
-    background: rgba(205, 142, 142, 0.56);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 54px;
-}
-#Registration{
-    
-position: absolute;
-width: 1px;
-height: 1px;
-left: 50px;
-top: 1px;
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 23px;
-
-color: #C4C4C4;
-
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
 
 .MainMenu{
     position: absolute;
-    width: 452px;
-    height: 360.5px;
-    left: 53px;
-    top: 187px;
+    width: 457px;
+    height: 665px;
+    left: 47px;
+    top: 37px;
 
     background: #C4C4C4;
     backdrop-filter: blur(4px);
@@ -59,7 +32,7 @@ text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
     border-radius: 54px;
 }
-#Authorization{
+#RegistrationTxt{
     position: absolute;
 width: 233px;
 height: 84px;
@@ -101,6 +74,41 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 5px;
 }
 
+.InputField3{
+    position: absolute;
+width: 386px;
+height: 32px;
+left: 30px;
+top: 245px;
+
+background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #2C2828;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+}
+.InputField4{
+    position: absolute;
+width: 386px;
+height: 32px;
+left: 30px;
+top: 315px;
+
+background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #2C2828;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+}
+.InputField5{
+    position: absolute;
+width: 386px;
+height: 32px;
+left: 30px;
+top: 385px;
+
+background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #2C2828;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+}
+
+
 #Login{
     position: absolute;
     width: 173px;
@@ -118,6 +126,8 @@ border-radius: 5px;
 
 
 }
+
+
 #Password{
     position: absolute;
     width: 173px;
@@ -134,12 +144,62 @@ border-radius: 5px;
     color: #000000;
 
 }
+
+#RepeatPassword{
+    position: absolute;
+    width: 173px;
+    height: 26px;
+    left: 30px;
+    top: 205px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;
+
+}
+#Email{
+    position: absolute;
+    width: 173px;
+    height: 26px;
+    left: 30px;
+    top: 275px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;
+
+}
+#PhoneNumber{
+    position: absolute;
+    width: 173px;
+    height: 26px;
+    left: 30px;
+    top: 345px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;
+}
+
+
 .ChekBox{
     position: absolute;
 width: 25px;
 height: 23px;
 left: 30px;
-top: calc(50% - 23px/2 + 45.5px);
+top: 435px;
 
 background: #FFFFFF;
 border: 1px solid #000000;
@@ -152,7 +212,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 width: 322px;
 height: 21px;
 left: 60px;
-top: 210px;
+top: 430px;
 
 font-family: 'Roboto';
 font-style: normal;
@@ -183,10 +243,10 @@ color: #1E38C0;
 
 .Enter{
     position: absolute;
-width: 210px;
+width: 302px;
 height: 51px;
 left: 105px;
-top: 290px;
+top: 500px;
 
 background: #FFFFFF;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -197,7 +257,7 @@ border-radius: 54px;
 position: absolute;
 width: 81px;
 height: 28px;
-left: 60px;
+left: 10px;
 top: 0px;
 
 font-family: 'Roboto';
