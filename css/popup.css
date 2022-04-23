@@ -1,0 +1,227 @@
+*{
+    font-family: Areal;
+}
+.b-container{
+    min-width:200px;
+
+    max-width :60%;
+    min-height:30 px;
+    background-color: #ccc;
+    margin:0px auto;
+    padding:10px;
+    font-size:30px;
+    color: rgb(56, 48, 48);
+}
+.b-popup2, .b-popup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(26, 21, 21,0.8);
+    top: 0;
+    left: 0;
+}
+.b-popup2, .b-popup{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+.b-popup-content{
+    min-width :60%;
+    max-width :80%;
+    max-height:80%;
+    background-color: #C4C4C4;
+    color: #000;
+    padding: 30px;
+    border-radius: 54px;
+}
+
+.NameTask{
+    
+    height: 10%;
+    margin: 5px;
+    border-radius: 5px;
+    
+}
+.descriptionTask{   
+    height: 10%;
+    margin: 5px;
+    border-radius: 5px;
+}
+.Titul{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 24px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    margin: 0px 0px 10px 0px ;
+    display:block;
+    border: 1px solid #000000;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #2C2828;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.content{
+    display:inline;
+    padding: 10px;
+    margin: 0px 0px 10px 0px ;
+    display:block;
+    border: 1px solid #000000;
+    background: linear-gradient(0deg, #b87070, #816868), #2C2828;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+}
+
+.workspace{
+    background: #aa7e7e;
+    backdrop-filter: blur(4px);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 80%;
+    padding: 10px;  
+}
+
+.End2, .End{
+    margin: 10px;
+    padding: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    display: inline-flex;
+    background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 54px;
+}
+
+.dataEnd{
+    margin: 10px;
+    padding: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    display: inline-flex;
+    background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 54px;
+}
+
+.statusBlock{
+    margin: 10px;
+    padding: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    display: inline-flex;
+    background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 54px;
+}
+
+.customData{
+    margin: 0px;
+    padding: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 12px;
+    display: inline-flex;
+    background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 54px;
+}
+
+.Titul2{
+    height: 100%;
+    display: inline-block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 24px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+    border: 1px solid #000000;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #2C2828;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.Titul3{
+    height: 100%;
+    width: 20%;
+    display: b;
+    font-family: 'Roboto';
+    font-style: normal;
+    display: inline-flex;
+    font-size: 24px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+    border: 1px solid #000000;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #2C2828;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.InputNameTask{
+    height: 100%;
+    width: 80%;
+    display: inline-block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 23px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+    border: 1px solid #000000;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #2C2828;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.InputDescriptionTask{
+   width: 100%;
+    margin: 5px;
+    margin-left: 0px;
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 23px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
+    border: 1px solid #000000;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #2C2828;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.dataEnd2{
+    padding: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    display: inline-flex;
+    background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 54px;
+}
+
+
+.CreatTaskBut{
+    margin-left: 60%;
+    right: 100pc;
+    padding: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    display: inline-flex;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 54px;
+    border: 0;
+}

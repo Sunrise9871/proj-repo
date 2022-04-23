@@ -3,6 +3,7 @@
    <head>
       <link rel="stylesheet" type="text/css"  href="css/style.css">
       <link rel="stylesheet" href="css/left-nav-style.css">
+      <link rel="stylesheet" href="css/popup.css">
       <meta charset="utf-8" />
       <title>HTML Document</title>
       
@@ -43,10 +44,59 @@
             <form action="#">
                 <button class="popup_button_back_index">Создать </button>
             </form>
+            <div class="b-container">
+                Совещание:   время:2012-04-10T20:37:40
+            </div>
+            <div class="b-popup" id="popup1">
+                <div class="b-popup-content">
+                    <div class="workspace">
+                    <div class="NameTask">
+                        <div class="Titul">Название:</div>
+                        <div class="content">Совещание</div>
+                    </div>
+                    <div class="descriptionTask">
+                        <div class="Titul">Описание:</div>
+                        <div class="content">Cоставьте список сотрудников, которых надо пригласить.<br> Здесь все зависит от тематики и поставленных задач.:</div>
+                    </div>
+                </div>
+                    <div class="End">Закрыть </div>
+                    <div class="dataEnd">Время завершения :
+                         <input class="customData" type="datetime-local" value="2012-04-10T20:37:40"/>
+                    </div>
+                    <div class="statusBlock">
+                        Статус:
+                        <div class="statusTask">Выполнено</div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="b-popup2" id="popup2">
+                <div class="b-popup-content">
+                    <div class="workspace">
+                    <div class="NameTask">
+                        <div class="Titul2">Название:</div>
+                        <input class="InputNameTask">
+                    </div>
+                    <div class="descriptionTask">
+                        <div class="Titul2">Описание:</div>
+                        <textarea class="InputDescriptionTask">Cоставьте список сотрудников, которых надо пригласить.<br> Здесь все зависит от тематики и поставленных задач.:</textarea>
+                    </div>
+                    <div class="dataEnd2">Время завершения :</div>
+                        <input class="customData" type="datetime-local" value="2012-04-10T20:37:40"/>
+                </div>
+                    <div class="End2">Закрыть </div>
+                    <button class="CreatTaskBut">Создать</button>
+                </div>
+            </div>
+
+
       </div>
       <div class="downMenu">
       
       </div>
       </div>
+      <script src="js/jquery.js"></script>
+      <script src="js/test.js"></script>
     </body>
 </html>
