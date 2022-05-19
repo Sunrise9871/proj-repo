@@ -8,7 +8,6 @@ from django.contrib.auth.views import LoginView
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import login
-from django.contrib.auth.views import PasswordResetView
 
 # Imports for Reordering Feature
 from django.views import View
@@ -17,9 +16,6 @@ from django.db import transaction
 
 from .models import Task
 from .forms import PositionForm
-
-class PasswordReset(PasswordResetView):
-    template_name: str = 'base/reset_password.html'
 
 
 class CustomLoginView(LoginView):
