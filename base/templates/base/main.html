@@ -1,12 +1,12 @@
-
 {% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
     <meta charset="utf-8">
     <meta name="description"
         content="This is to do list implemented using Django by Dennis Ivy who is a full stack web developer.">
-        <link rel="stylesheet" type="text/css"  href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style1.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>To Do Items</title>
     <meta name="description" content="">
@@ -14,15 +14,31 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{% static '/css/style.css' %}">
+    <link rel="stylesheet" href="{% static '/css/left-nav-style.css' %}">
+    <link rel="stylesheet" href="{% static '/css/popup.css' %}">
+    <link rel="stylesheet" href="{% static '/css/style1.css' %}">
 </head>
 
 <body>
-
-    <div class="container">
-        {% block content %} {% endblock content %}
-    </div>
-
+    <div class="MainFrame">
+        <div class="topMenu">
+        </div>
+        <div class="topMenu">
+        </div>
+        <div class="workMenu">
+        </div>
+        <div class="downMenu">
+        </div>
+     </div>
+     <div id="popup" class="popup">
+        <div class="popup_body">
+           <div class="popup_content">
+                <div class="container">
+                    {% block content %} {% endblock content %}
+                </div>
+            </div>
+        </div>
+     </div>
 </body>
 
 

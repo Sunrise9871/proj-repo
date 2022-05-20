@@ -1,0 +1,78 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description"
+        content="This is to do list implemented using Django by Dennis Ivy who is a full stack web developer.">
+    <link rel="stylesheet" type="text/css" href="css/style1.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>To Do Items</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static '/css/left-nav-style.css' %}">
+    <link rel="stylesheet" href="{% static '/css/popup.css' %}">
+    <link rel="stylesheet" href="{% static '/css/style1.css' %}">
+</head>
+
+<body>
+    <div class="MainFrame">
+        <div class="topMenu">
+            <input type="checkbox" id="nav-toggle" hidden>
+            <nav class="nav">
+                <!-- 
+            Метка с именем `id` чекбокса в `for` атрибуте
+            Символ Unicode 'TRIGRAM FOR HEAVEN' (U+2630)
+            Пустой атрибут `onclick` используем для исправления бага в iOS < 6.0
+            См: http://timpietrusky.com/advanced-checkbox-hack 
+            -->
+                <label for="nav-toggle" class="nav-toggle" onclick></label>
+                <!-- 
+            Здесь размещаете любую разметку,
+            если это меню, то скорее всего неупорядоченный список <ul>
+            -->
+                <h2 class="logo"> 
+                    <a href="//dbmast.ru/">Меню</a> 
+                </h2>
+                <ul>
+                    
+                    <li><a href="Create_room.html">Создание комнаты</a>                        
+                    <li><a href="{% url 'tasks' %}">Список задач</a>
+                    <li><a href="account.html">Аккаунт</a>
+                    <li><a href="{% url 'basket' %}">Корзина</a>
+                    <li><a href="settings.html">Настройки</a>
+                    <li><a href="room.html">Комнаты</a>
+                    <li><a href="calendar.html">Календарь</a> 
+                </ul>
+            </nav>
+            <div class="text_task_list">Корзина</div>
+        </div>
+        <div class="topMenu">
+        </div>
+        <div class="workMenu">
+        </div>
+        <div class="downMenu">
+        </div>
+     </div>
+     <div id="popup" class="popup">
+        <div class="popup_body">
+           <div class="popup_content">
+                <div class="container">
+                </div>
+                <div id="popup" class="popup">
+                   <div class="popup_body">
+                      <div class="popup_content">
+                           <div class="container">
+                            
+                        </div>
+                    </div>
+                    </div>
+                    </div>
+                    </body>
+                    
+                    
+                    </html>

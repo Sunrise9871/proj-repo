@@ -14,9 +14,13 @@ from django.views import View
 from django.shortcuts import redirect
 from django.db import transaction
 
-from .models import Task
+from .models import Task , DeleteTaskMain
 from .forms import PositionForm
 
+
+from django.contrib.auth.views import (
+    LoginView,
+)
 
 class CustomLoginView(LoginView):
     template_name = 'base/login.html'
@@ -73,12 +77,34 @@ class TaskDetail(LoginRequiredMixin, DetailView):
 class TaskCreate(LoginRequiredMixin, CreateView):
     model = Task
     fields = ['title', 'description', 'complete']
-    success_url = reverse_lazy('tasks')
+    success_url = reverse_lazy('DeleteTask')
 
     def form_valid(self, form):
         form.instance.user = self.request.user
         return super(TaskCreate, self).form_valid(form)
 
+
+class TaskDelete(LoginRequiredMixin, CreateView):
+    model = DeleteTaskMain
+    fields = ['title', 'description', 'complete']
+    success_url = reverse_lazy('tasks')
+
+    def form_valid(self, form):
+        form.instance.user = self.request.user
+        return super(TaskDelete, self).form_valid(form)
+
+
+class login_view(LoginView):
+    model = Task
+    context_object_name = 'task'
+    template_name = 'base/task.html'
+
+class basket_view(LoginView):
+    template_name = 'base/basket.html'    
+
+
+class U_task_list_view(LoginView):
+    template_name = 'base/task.html'
 
 class TaskUpdate(LoginRequiredMixin, UpdateView):
     model = Task
